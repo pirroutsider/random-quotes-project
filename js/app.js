@@ -1,5 +1,16 @@
 //immediate invoked function expression
 
+
+const button = document.querySelector('.btn-outline-primary')
+const actualQuote = document.querySelector('.text-muted')
+const actualAuthor = document.querySelector('.author')
+
+const randomNumber = Math.floor(Math.random()*6); 
+
+button.addEventListener('click', printQuote)
+
+function printQuote() {
+
   const quotes = [
     {
       quote:
@@ -31,4 +42,27 @@
       author: " Tyne Daly"
     }
   ];
+
+ 
+    const randomNumber = Math.floor(Math.random()*6); 
+
+    sayQuote = quotes[randomNumber];
+
+    actualQuote.textContent = sayQuote.quote;
+    actualAuthor.textContent = sayQuote.author;
+
+
+
+
+
+  
+
+}
+
+
+
+
+
+
+
 
