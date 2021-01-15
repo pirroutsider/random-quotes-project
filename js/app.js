@@ -24,27 +24,36 @@ function printQuote() {
     },
     {
       quote:
-        "God save me from my friends. I can protect myself from my enemies.",
-      author: "Claude Louis Hector de Villars "
+        "If you are good at something, never do it for free.",
+      author: "Joker "
     },
     {
-      quote: "The price of anything is the amount of life you exchange for it.",
-      author: "David Thoreau"
-    },
-    {
-      quote:
-        "Life is like a landscape. You live in the midst of it but can describe it only from the vantage point of distance. ",
-      author: "Charles Lindbergh"
+      quote: "Madness is like gravity. All it takes is a little push.",
+      author: "Joker"
     },
     {
       quote:
-        "A critic is someone who never actually goes to the battle, yet who afterwards comes out shooting the wounded.",
-      author: " Tyne Daly"
+        "Sometimes the truth isn’t good enough. Sometimes people deserve more. Sometimes people deserve to have their faith rewarded. ",
+      author: "Batman"
+    },
+    {
+      quote:
+        "I believe whatever doesn’t kill you, simply makes you stranger.",
+      author: " Joker"
+    },
+    {
+      quote:
+        "A hero can be anyone. Even a man doing something as simple and reassuring as putting a coat around a young boy's shoulders to let him know that the world hadn't ended.",
+      author: " Batman"
     }
+
+
+
+
   ];
 
  
-    const randomNumber = Math.floor(Math.random()*6); 
+    const randomNumber = Math.floor(Math.random()*quotes.length); 
 
     sayQuote = quotes[randomNumber];
 
