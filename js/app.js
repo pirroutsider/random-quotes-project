@@ -2,7 +2,7 @@
 
 
 const button = document.querySelector('.btn-outline-primary')
-const actualQuote = document.querySelector('.text-muted')
+const actualQuote = document.getElementById('quote')
 const actualAuthor = document.querySelector('.author')
 
 const randomNumber = Math.floor(Math.random()*6); 
